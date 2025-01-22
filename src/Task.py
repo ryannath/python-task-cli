@@ -23,7 +23,7 @@ class Task:
         self.update_last_modified()
     
     def mark_as_inprogress(self):
-        self.completed = "in progress"
+        self.completed = "inprogress"
         self.update_last_modified()
     
     def update(self, description=None):
